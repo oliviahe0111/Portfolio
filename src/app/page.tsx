@@ -1,5 +1,6 @@
 import Avatar from "@/components/Avatar";
 import Section from "@/components/Section";
+import { getAssetPath } from "@/lib/utils";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <div className="flex flex-col items-center text-center mb-16">
           <div className="mb-6">
             <Avatar
-              src="/avatar.jpg"
+              src={getAssetPath("/avatar.jpg")}
               alt="Ziyan (Olivia) He"
               size="lg"
             />
