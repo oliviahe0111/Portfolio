@@ -1,7 +1,6 @@
 "use client";
 
 import Avatar from "./Avatar";
-import { getAssetPath } from "@/lib/utils";
 
 export default function Header() {
   return (
@@ -71,7 +70,7 @@ export default function Header() {
           </svg>
         </button>
         <Avatar
-          src={getAssetPath("/avatar.jpg")}
+          src="/avatar.jpg"
           alt="Profile"
           size="sm"
         />
