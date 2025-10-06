@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col items-center text-center mb-16">
           <div className="mb-6">
             <Avatar
-              src="/avatar.jpg"
+              src="avatar.jpg"
               alt="Ziyan (Olivia) He"
               size="lg"
             />
